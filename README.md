@@ -3,11 +3,9 @@
 We providing 65.3 Mio demographic and non-demographic attribute annotations of 41 different attributes for five popular DeepFake
 datasets, Celeb-DF, DeepFakeDetection (DFD), FaceForensics++ (FF++), DeeperForensics-1.0 (DF-1.0), and Deepfake Detection Challenge Dataset (DFDC).
 
-- [Research Paper](https://arxiv.org/abs/2012.01030)
-- [Download Data](https://github.com/pterhoer/MAAD-Face/releases/tag/MAADFACE)
-TODO
-
 Version 1.0 (02.08.2022)
+
+This page is under construction and will be completed soon.
 
 ## Table of Contents
 
@@ -24,7 +22,6 @@ Version 1.0 (02.08.2022)
 
 ToDo
 
-For more details, please take a look at the [Research Paper](https://arxiv.org/abs/2012.01030). TODO
 
 ## Database Properties
 
@@ -32,7 +29,7 @@ For more details, please take a look at the [Research Paper](https://arxiv.org/a
 
 ## Annotated Sample Images
 
-Below some sample images are shown including their corresponging 47 attribute annotations.
+Below some sample images are shown including their corresponging 41 attribute annotations.
 A positive attribute label refers to 1, a negative attribute label refers to -1, and a undefined attribute annotation is marked as 0.
 
 
@@ -97,8 +94,7 @@ TODO
 
 
 ## Acknowledgment
-
-This work was supported by the German Federal Ministry of Education and Research (BMBF) as well as by the Hessen State Ministry for Higher Education, Research and the Arts (HMWK) within the National Research Center for Applied Cybersecurity (ATHENE), and in part by the German Federal Ministry of Education and Research (BMBF) through the Software Campus project.
+TODO
 
 
 ## License
