@@ -35,7 +35,7 @@ A positive attribute label refers to 1, a negative attribute label refers to -1,
 
 ## Download
 
-You can download the annotations for our five dataset from [google drive](https://drive.google.com/drive/folders/1fx12imaU2NQ5kNdYVxMXqp2iF9RXqJQM?usp=sharing).
+You can download the annotations for our five datasets from [google drive](https://drive.google.com/drive/folders/1fx12imaU2NQ5kNdYVxMXqp2iF9RXqJQM?usp=sharing).
 
 
 ## Citing
