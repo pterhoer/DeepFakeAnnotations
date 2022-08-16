@@ -29,9 +29,11 @@ In recent years, image and video manipulations with DeepFake have become a sever
 
 ## Annotated Sample Images
 
-Below some sample images are shown including their corresponging 41 attribute annotations.
-A positive attribute label refers to 1, a negative attribute label refers to -1, and a undefined attribute annotation is marked as 0.
+Below some sample images(forged) are shown including their corresponging attribute annotations. (Top-Down: A-Celeb-DF, A-DFD, A-FF++, A-DF1.0, A-DFDC)
 
+A positive attribute label refers to 1, a negative attribute label refers to -1, and a undefined attribute annotation is marked as 0.
+<!-- ![](df_samples.png) -->
+<img src="https://github.com/pterhoer/DeepFakeAnnotations/blob/main/df_samples.png" width="850">
 
 ## Download
 
