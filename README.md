@@ -24,7 +24,10 @@ In recent years, image and video manipulations with DeepFake have become a sever
 
 
 ## Database Properties
+We provide massive and diverse annotations for five widely-used DeepFake detection datasets, resulting the annotation datasets  **A-Celeb-DF** (9.2M labels), **A-DFD** (4.7M labels), **A-FF++** (8.5M labels), **A-DF-1.0** (38.3M labels), and **A-DFDC** (4.6M labels). 
 
+Existing DeepFake detection datasets contain none or only sparse annotations restricted to demographic attributes. This work provides over 65.3M labels of most 41 different attributes for five popular DeepFake detection datasets ([Celeb-DF](https://www.cs.albany.edu/~lsw/celeb-deepfakeforensics.html), [DeepFakeDetection (DFD)](https://ai.googleblog.com/2019/09/contributing-data-to-deepfake-detection.html), [FaceForensics++ (FF++)](https://github.com/ondyari/FaceForensics), [DeeperForensics-1.0 (DF-1.0)](https://github.com/EndlessSora/DeeperForensics-1.0) and [Deepfake Detection Challenge Dataset (DFDC)](https://ai.facebook.com/datasets/dfdc/)).
+<img src="https://github.com/pterhoer/DeepFakeAnnotations/blob/main/A-dataset.png" width="700" height="175">
 
 
 ## Annotated Sample Images
@@ -33,7 +36,7 @@ Below some sample images(forged) are shown including their corresponging attribu
 
 A positive attribute label refers to 1, a negative attribute label refers to -1, and a undefined attribute annotation is marked as 0.
 <!-- ![](df_samples.png) -->
-<img src="https://github.com/pterhoer/DeepFakeAnnotations/blob/main/df_samples.png" width="850">
+<img src="https://github.com/pterhoer/DeepFakeAnnotations/blob/main/df_samples.png" width="800" height="950">
 
 ## Download
 
