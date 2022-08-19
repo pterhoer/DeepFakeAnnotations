@@ -36,7 +36,7 @@ Below some sample images(forged) are shown including their corresponging attribu
 
 A positive attribute label refers to 1, a negative attribute label refers to -1, and a undefined attribute annotation is marked as 0.
 <!-- ![](df_samples.png) -->
-<img src="https://github.com/pterhoer/DeepFakeAnnotations/blob/main/df_samples.png" width="800" height="950">
+<img src="https://github.com/pterhoer/DeepFakeAnnotations/blob/main/df_samples.png" width="775" height="950">
 
 ## Download
 
