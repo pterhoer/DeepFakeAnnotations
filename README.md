@@ -3,9 +3,9 @@
 We providing 65.3 Mio demographic and non-demographic attribute annotations of 41 different attributes for five popular DeepFake
 datasets, Celeb-DF, DeepFakeDetection (DFD), FaceForensics++ (FF++), DeeperForensics-1.0 (DF-1.0), and Deepfake Detection Challenge Dataset (DFDC).
 
-Version 1.0 (02.08.2022)
+Version 1.1 (22.08.2022)
 
-This page is under construction and will be completed soon.
+* [Research Paper](https://arxiv.org/abs/2208.05845)
 
 ## Table of Contents
 
@@ -20,7 +20,7 @@ This page is under construction and will be completed soon.
 
 ## Abstract
 
-In recent years, image and video manipulations with DeepFake have become a severe concern for security and society. Therefore, many detection models and databases have been proposed to detect DeepFake data reliably. However, there is an increased concern that these models and training databases might be biased and thus, cause DeepFake detectors to fail. In this work, we tackle these issues by (a) providing large-scale demographic and non-demographic attribute annotations of 41 different attributes for five popular DeepFake datasets and (b) comprehensively analysing AI-bias of multiple state-of-the-art DeepFake detection models on these databases. The investigation analyses the influence of a large variety of distinctive attributes (from over 65M labels) on the detection performance, including demographic (age, gender, ethnicity) and non-demographic (hair, skin, accessories, etc.) information. The results indicate that investigated databases lack diversity and, more importantly, show that the utilised DeepFake detection models are strongly biased towards many investigated attributes. Moreover, the results show that the models' decision-making might be based on several questionable (biased) assumptions, such if a person is smiling or wearing a hat. Depending on the application of such DeepFake detection methods, these biases can lead to generalizability, fairness, and security issues. We hope that the findings of this study and the annotation databases will help to evaluate and mitigate bias in future DeepFake detection techniques. Our annotation datasets are made publicly available.
+In recent years, image and video manipulations with DeepFake have become a severe concern for security and society. Therefore, many detection models and databases have been proposed to detect DeepFake data reliably. However, there is an increased concern that these models and training databases might be biased and thus, cause DeepFake detectors to fail. In this work, we tackle these issues by (a) providing large-scale demographic and non-demographic attribute annotations of 41 different attributes for five popular DeepFake datasets and (b) comprehensively analysing AI-bias of multiple state-of-the-art DeepFake detection models on these databases. The investigation analyses the influence of a large variety of distinctive attributes (from over 65M labels) on the detection performance, including demographic (age, gender, ethnicity) and non-demographic (hair, skin, accessories, etc.) information. The results indicate that investigated databases lack diversity and, more importantly, show that the utilised DeepFake detection models are strongly biased towards many investigated attributes. Moreover, the results show that the models' decision-making might be based on several questionable (biased) assumptions, such if a person is smiling or wearing a hat. Depending on the application of such DeepFake detection methods, these biases can lead to generalizability, fairness, and security issues. We hope that the findings of this study and the annotation databases will help to evaluate and mitigate bias in future DeepFake detection techniques.
 
 
 ## Database Properties
@@ -32,9 +32,9 @@ Existing DeepFake detection datasets contain none or only sparse annotations res
 
 ## Annotated Sample Images
 
-Below some sample images(forged) are shown including their corresponging attribute annotations. (Top-Down: A-Celeb-DF, A-DFD, A-FF++, A-DF1.0, A-DFDC)
+Below some sample images (forged) are shown including their corresponging attribute annotations. (Top-Down: A-Celeb-DF, A-DFD, A-FF++, A-DF1.0, A-DFDC)
 
-A positive attribute label refers to 1, a negative attribute label refers to -1, and a undefined attribute annotation is marked as 0.
+A positive attribute label (the person has this attribute) refers to 1, a negative attribute label (a person does not have this attribute) refers to -1, and a undefined attribute annotation is marked as 0.
 <!-- ![](df_samples.png) -->
 <img src="https://github.com/pterhoer/DeepFakeAnnotations/blob/main/df_samples.png" width="775" height="950">
 
@@ -49,7 +49,24 @@ You can download the annotations for our five datasets from [google drive](https
 If you use this work, please cite the following papers as well as the respective databases.
 
 ```
-TODO
+@article{DBLP:journals/corr/abs-2208-05845,
+  author    = {Ying Xu and
+               Philipp Terh{\"{o}}rst and
+               Kiran B. Raja and
+               Marius Pedersen},
+  title     = {A Comprehensive Analysis of {AI} Biases in DeepFake Detection With
+               Massively Annotated Databases},
+  journal   = {CoRR},
+  volume    = {abs/2208.05845},
+  year      = {2022},
+  url       = {https://doi.org/10.48550/arXiv.2208.05845},
+  doi       = {10.48550/arXiv.2208.05845},
+  eprinttype = {arXiv},
+  eprint    = {2208.05845},
+  timestamp = {Tue, 16 Aug 2022 16:44:57 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2208-05845.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
 ```
 
 ```
@@ -100,7 +117,7 @@ TODO
 
 
 ## Acknowledgment
-TODO
+Parts of this work was carried out during the tenure of an ERCIM ’Alain Bensoussan‘ Fellowship Programme.
 
 
 ## License
