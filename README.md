@@ -4,6 +4,7 @@ We providing 65.3 Mio demographic and non-demographic attribute annotations of 4
 datasets, Celeb-DF, DeepFakeDetection (DFD), FaceForensics++ (FF++), DeeperForensics-1.0 (DF-1.0), and Deepfake Detection Challenge Dataset (DFDC).
 
 Version 1.1 (22.08.2022)
+
 Version 2.1 (23.03.2023)
 
 * [Research Paper](https://arxiv.org/abs/2208.05845)
