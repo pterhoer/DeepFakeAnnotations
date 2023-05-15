@@ -10,26 +10,15 @@ import os
 all_attributes = 'A-DFDC.csv'   # Available in the google drive
 test_output = 'inputs/dfdc_capnet/dfdc_capnet.txt'  # Available in the google drive, test folder
 dataset = 'DFDC_capnet'
-output_file = 'outputs/demographics_results/DFDC_capnet_test.csv'
+output_file = 'outputs/DFDC_capnet.csv'
 
 
 def main():
-
-    # DFD dfd1,2,3 -> DeepFakeDetection
-    # all_data = pd.read_csv(all_attributes, index_col=0)
-    # all_data['path'] = all_data['path'].str.replace('dfd1', 'DeepFakeDetection')
-    # all_data['path'] = all_data['path'].str.replace('dfd2', 'DeepFakeDetection')
-    # all_data['path'] = all_data['path'].str.replace('dfd3', 'DeepFakeDetection')
-    # test_data = pd.read_csv(test_output, delimiter="\t", index_col=False)
 
     # DFDC DFDC_train_single / DFDC_validation_single -> DFDC_validation_single
     all_data = pd.read_csv(all_attributes, index_col=0)
     all_data['path'] = all_data['path'].str.replace('DFDC_train_single/DFDC_validation_single', 'DFDC_validation_single')
     test_data = pd.read_csv(test_output, delimiter="\t", index_col=False)
-
-    # FF++/Deeperf
-    # all_data = pd.read_csv(all_attributes, index_col=0)
-    # test_data = pd.read_csv(test_output, delimiter="\t", index_col=False)
 
     data = test_data.merge(all_data, how='left', left_on='image_path', right_on='path')
     data.drop(columns=['path', 'path_folder', 'label'], inplace=True)
