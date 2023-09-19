@@ -23,7 +23,7 @@ def main():
     data = test_data.merge(all_data, how='left', left_on='image_path', right_on='path')
     data.drop(columns=['path', 'path_folder', 'label'], inplace=True)
     df_real = data.loc[data['real_label'] == 0]
-    df_fake = data.loc[data['real_label'] == 1]
+    df_fake = data.loc[data['fake_label'] == 1]
 
     columns_name = ["male", "young", "asian", "white", "black", "shiny_skin", "bald", "wavy_hair", "receding_hairline",
                     "bangs", "black_hair", "blond_hair", "no_beard", "mustache", "goatee", "oval_face", "square_face",
