@@ -7,7 +7,8 @@ Version 1.1 (22.08.2022)
 
 Version 2.1 (23.03.2023)
 
-* [Research Paper](https://arxiv.org/abs/2208.05845)
+* [Research Paper (ArXiv)](https://arxiv.org/abs/2208.05845)
+* [Research Paper (IEEE)](https://ieeexplore.ieee.org/document/10438899)
 
 ## Table of Contents
 
@@ -51,24 +52,16 @@ You can download the annotations for our five datasets from [google drive](https
 If you use this work, please cite the following papers as well as the respective databases.
 
 ```
-@article{DBLP:journals/corr/abs-2208-05845,
-  author    = {Ying Xu and
-               Philipp Terh{\"{o}}rst and
-               Kiran B. Raja and
-               Marius Pedersen},
-  title     = {A Comprehensive Analysis of {AI} Biases in DeepFake Detection With
-               Massively Annotated Databases},
-  journal   = {CoRR},
-  volume    = {abs/2208.05845},
-  year      = {2022},
-  url       = {https://doi.org/10.48550/arXiv.2208.05845},
-  doi       = {10.48550/arXiv.2208.05845},
-  eprinttype = {arXiv},
-  eprint    = {2208.05845},
-  timestamp = {Tue, 16 Aug 2022 16:44:57 +0200},
-  biburl    = {https://dblp.org/rec/journals/corr/abs-2208-05845.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
-}
+@ARTICLE{10438899,
+  author={Xu, Ying and Terh{\"{o}}rst, Philipp and Pedersen, Marius and Raja, Kiran},
+  journal={IEEE Transactions on Technology and Society}, 
+  title={Analyzing Fairness in Deepfake Detection With Massively Annotated Databases}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Deepfakes;Annotations;Databases;Faces;Skin;Reliability;Feature extraction;Deepfake;Deepfake detection;Databases;Bias;Fairness;Image manipulation;Video manipulation},
+  doi={10.1109/TTS.2024.3365421}}
 ```
 
 ```
